@@ -29,7 +29,7 @@ CORS(app, resources={r"/*": {"origins": "*"}})
 print("[SynthScan] Loading transformer model...")
 _classifier = pipeline(
     "image-classification",
-    model="./AI-image-detector"
+    model="Organika/sdxl-detector"
 )
 print("[SynthScan] Model ready.\n")
 
